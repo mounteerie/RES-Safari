@@ -1,1 +1,2 @@
-See the [`changelog/`](/changelog) directory for individual versions or https://www.redditenhancementsuite.com/ for all versions.
+# 1.0 (Based on RES 5.2.2)
+- Fixed duplicated expando buttons
