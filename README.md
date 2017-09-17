@@ -19,12 +19,12 @@ Once done, you can build the extension by running `npm start`.
 
 To load the extension into Safari, see below.
 
-#### Details and advanced usage
+#### Building for Safari
 
-**`npm run build [-- <browsers>]`** will clean `dist/`, then build RES (release mode). Each build output will be compressed to a .zip file in `dist/zip/`.
+**`npm run build -- safari`** will clean `dist/`, then build RES (release mode).
 
-##### Building in Safari (assumes Mac)
 
+##### Installing extension
   1. Open the `Preferences` by going to `Safari->Preferences` or pressing `⌘,`, then go to `Advanced` and check the checkbox for `Show Develop menu in menu bar`.
   2. Navigate to `Develop->Show Extension Builder` to open the extensions builder. Add a new extension by pressing the `+` in the bottom left and choosing `Add Extension`.
   3. Navigate to the `/dist/RES.safariextension` folder (not the `/safari` folder) for RES and select it.
