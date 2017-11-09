@@ -15,10 +15,6 @@ First time installation:
 1. Navigate to your RES folder.
 1. Run `npm install`.
 
-Once done, you can build the extension by running `npm start`.
-
-To load the extension into Safari, see below.
-
 #### Building for Safari
 
 **`npm run build -- safari`** will clean `dist/`, then build RES (release mode).
